@@ -143,12 +143,22 @@ border: none;
         display: none;
     }
 
-    .mobile_img{
-        display: inline;
-        position: relative;
-        right: 24px;
-        top: 85px;
+    .mobile-response{
+        margin: 0 24px;
     }
+
+    .mobile_img{
+        display: block;
+        position: relative;
+        /* right: 64px; */
+        top: 35px;
+    }
+
+    .mobile_img img{
+        width: 375px;
+        height: 284px;
+    }
+
     .home{
         width: 375px;
         height:842px;
@@ -156,23 +166,31 @@ border: none;
     }
 
     .content{
-        margin: 0 24px 0;
+        margin: 0;
+        width: 375px;
     }
 
     .content h1{
         font-size: 40px;
         width: 327px;
+        margin-top: 0;
+        padding-top: 67px;
     }
 
     .content p{
         font-size: 16px;
         width: 327px;
+        margin: 24px 0;
     }
 
     .list{
         width: 327px;
+        font-size: 16px;
     }
 
+    .list li{
+        display: flex;
+    }
     .inputfield p{
         font-size: 12px;
     }
@@ -180,4 +198,16 @@ border: none;
     input, .btn{
         width: 327px;
     }
+
+    .inputfield{
+        /* margin-top: 40px; */
+        width: 327px;
+    }
+
+    .list li img{
+        width: 21px;
+        height: 21px;
+        margin-right: 10px;
+    }
+    
 }

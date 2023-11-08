@@ -11,6 +11,7 @@ function Home() {
       <div className="mobile_img">
         <img src={MobileImg} alt="mobile" />
       </div>
+      <div className="mobile-response">
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
         <ul className="list">
@@ -32,7 +33,7 @@ function Home() {
           <input type="text" placeholder="email@company.com"/>
         </div>
         <button className="btn">Subscribe to monthly newsletter</button>
-
+      </div>
       </div>
       <div className="desktop-img">
         <img src={DesktopImg} alt="desktop" />
