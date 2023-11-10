@@ -83,6 +83,16 @@ body{
     line-height: 150%; /* 18px */
 }
 
+
+#valid-email{
+    color: #FF6155;
+    width: 44%;
+}
+
+.email-flex{
+    display: flex;
+}
+
 input{
     width: 376px;
     height: 56px;
