@@ -153,6 +153,10 @@ border: none;
         display: none;
     }
 
+    #valid-email{
+        width: 54%;
+    }
+
     .mobile-response{
         margin: 0 24px;
     }
@@ -161,7 +165,7 @@ border: none;
         display: block;
         position: relative;
         /* right: 64px; */
-        top: 35px;
+        /* top: 35px; */
     }
 
     .mobile_img img{
@@ -190,7 +194,7 @@ border: none;
     .content p{
         font-size: 16px;
         width: 327px;
-        margin: 24px 0;
+        /* margin: 24px 0; */
     }
 
     .list{
@@ -219,5 +223,4 @@ border: none;
         height: 21px;
         margin-right: 10px;
     }
-    
 }
